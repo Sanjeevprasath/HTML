@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<style>
+div{
+border:5px solid red;
+transform:translate(250px,520px);
+max-width:200px;
+}
+.rotate{
+max-width:200px;
+transform:rotate(156deg);
+}
+.scale{
+transform:scale(3,2);
+margin:300px;
+}
+.skew{
+transform:skew(15deg,5deg)
+}
+.matrix{
+transform:matrix(1,-.3,0,2,0,0);
+overflow-x:hidden;
+}
+</style>
+<body>
+<div>move from its original position</div>
+<div class="rotate">Rotate the content</div>
+<div class="scale">increase or decrease the size</div>
+<div class="skew">skew an element</div>
+<div class="matrix">all parameters combined(scaleX,scaleY,skewX,skewY,translateX,translateY)</div>
+</body>
+</html>

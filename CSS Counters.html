@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+counter-reset:number;
+}
+h2::before{
+counter-increment:number;
+content:"number"counter(number)":";
+}
+h3::before{
+counter-increment:subnumber;
+content:counter(number)"." counter(subnumber)":";
+}
+</style>
+<body>
+
+<h1>USING CSS COUNTERS</h1>
+
+<h2>PYTHON</h2>
+<h3>py</h3>
+<h2>JAVA</h2>
+<h3>.java</h3>
+<h2>JAVASCRIPT</h2>
+<h3>.js</h3>
+<h2>RUBY</h2>
+<h2>CSS</h2>
+<h2>react</h2>
+
+</body>
+</html>

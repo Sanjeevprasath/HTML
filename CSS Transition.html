@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style>
+div{
+width:200px;
+height:150px;
+background:red;
+transition:width 5s;
+}
+.transition{
+transition:width 2s,height 2s,transform 2s;
+transition-delay:1s;
+}
+.transition:hover{
+background-color:black;
+width:250px;
+height:350px;
+transform:rotate(180deg);
+}
+.linear{
+transition-timing-function:linear;
+}
+.ease{
+transition-timing-function:ease;
+}
+.ease-in{
+transition-timing-function:ease-in;
+}
+.ease-out{
+transition-timing-function:ease-out;
+}
+.ease-in-out{
+transition-timing-function:ease-in-out;
+}
+div:hover{
+background:red;
+width:300px
+}
+</style>
+<body>
+<div class="transition"></div><hr>
+<div class="linear">LINEAR</div><hr>
+<div class="ease">EASE</div><hr>
+<div class="ease-in">EASE-IN</div><hr>
+<div class="ease-out">EASE-OUT</div><hr>
+<div class="ease-in-out">EASE-IN-OUT</div><hr>
+
+</body>
+</html>

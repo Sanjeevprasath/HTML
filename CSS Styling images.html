@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+.marvel{
+display:block;
+border:5px solid black;
+border-radius:2px;
+background:yellow;
+padding:15px;
+margin-left:auto;
+margin-right:auto;
+}
+.marvel:hover{
+background:red;
+border-radius:10px;
+box-shadow:0 0 9px green;
+}
+.blur{filter:blur(5px);}
+.brightness{filter:brightness(250%);}
+.contrast{filter:contrast(200%);}
+.grayscale{filter:grayscale(100%);}
+.huerotate{filter:huerotate(180deg);}
+.invert{filter:invert(100%);}
+.opacity{filter:opacity(50%);}
+.saturate{filter:saturate(5);}
+.sepia{filter:sepia(100%);}
+.drop-shadow{filter:drop-shadow(8px 8px 10px green);}
+.flip:hover{
+transform:scaleX(-1);
+}
+</style>
+<body>
+<h2>CSS STYLING IMAGE </h2>
+<div>
+<a href="marvel.jpg" target="_blank">
+<img class="marvel" src="marvel.jpg" alt="marvel" height="350px;" width="500px;"></a><hr>
+<img class="blur" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="brightness" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="contrast" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="grayscale" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="huerotate" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="invert" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="opacity" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="saturate" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="sepia" src="sp.jpg" height="350px" width="500px"><hr>
+<img class="drop-shadow" src="sp.jpg" height="350px" width="500px">
+<hr>
+</div>
+<img class="flip" src="marvel.jpg" height="350px;" width="500px;">
+
+
+
+</body>
+</html>
