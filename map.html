@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>USE OF MAP</h2>
+
+<img src="desk.jpg" alt="desk" usemap="#work" width="400" height="400">
+
+<map name="work">
+    <area shape="rect" coords="34,44,270,350" alt="computer" href="computer.html">
+    <area shape="rect" coords="290,172,333,250" alt="mobile" href="mobile.html">
+    <area shape="circle" coords="337,300,44" alt="cup" href="cup.html" onclick="myfunction()">
+</map>
+
+<script>
+function myfunction(){
+     alert("clicked the cup")
+}
+</script>
+</body>
+</html>

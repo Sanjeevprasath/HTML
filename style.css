@@ -1,0 +1,14 @@
+body{
+background-color:black;
+}
+h1{
+color:green;
+text-family:courier;
+border:2px solid white;
+padding:50px;
+}
+p{
+color:blue;
+font-size:20px;
+font-align:center;
+}
